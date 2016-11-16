@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	
+	}
+#storbox {
+	background-color: #999;
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	margin-left: 10%;
+	box-shadow: 10px 10px 10px;
+	
+	
+	}
+header {
+	Background-color:#F63;
+	width:95%;
+	height:15%;
+	font-family:"Courier New", Courier, monospace;
+	margin-left:2.5%;
+	box-shadow: 10px 10px 10px;
+	border-radius:20px;
+	
+}
+nav {
+	background-color:#F63;
+	height:7.5%;
+	width:95%;
+	font-family:"Courier New", Courier, monospace;
+	margin-left:2.5%;
+	margin-bottom:2.5%;
+	box-shadow: 10px 10px 10px;
+	margin-top: 25px;
+	border-radius:20px;		
+	}
+ul {
+	list-style:none;
+	background-color:#900;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+	
+	
+	}
+li {
+	line-height:40px;
+	height:100%;
+	width:20%;
+	float:left;
+	margin-top:13px;
+	color:#000;
+	
+	
+	}
+
+li:hover{
+	background-color:#999;
+	transition:all ease-in 0.2s;
+	height:100%;
+	border-radius:20px;
+	color:#000;
+	
+}
+a {
+	color: #000;
+	
+	}
+aside {
+	height:67.7%;
+	width:40%;
+	background-color:#666;
+	overflow:hidden;
+	float:left;
+	
+	}
+#bildbox {
+	margin-top:50px;
+	background-color:#999;
+	width:80%;
+	height:85%;
+	margin-left:50px;
+	background-image:url(Nobel_medal_dsc06171.png);	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:95%;
+	box-shadow: 10px 10px 10px;
+	}
+article {
+	background-color:#666;
+	width:60%;
+	height:67.7%;
+	float:right;
+	
+	
+	}
+#bildbox2 {
+	margin-top:50px;
+	background-color:#999;
+	width:80%;
+	height:85%;
+	margin-left:50px;
+	background-image:url(arvid.jpg);	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	box-shadow: 10px 10px 10px;
+}
+figure {
+	float:right;
+	
+	}
+#bildbox3 {
+	margin-top:50px;
+	background-color:#999;
+	width:80%;
+	height:85%;
+	margin-left:50px;
+	background-image:url(200px-Gustaf_Dal%C3%A9n.jpg);	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	box-shadow: 10px 10px 10px;
+	
+}
+#bildbox4 {
+	margin-top:50px;
+	background-color:#999;
+	width:80%;
+	height:85%;
+	margin-left:50px;
+	background-image:url(alvamyrdall.jpg);	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	box-shadow: 10px 10px 10px;
+	}
+#bildbox5 {
+	margin-top:50px;
+	background-color:#999;
+	width:80%;
+	height:85%;
+	margin-left:50px;
+	background-image:url(alavar.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	box-shadow: 10px 10px 10px;
+	}
