@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stall Byström</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<body>
+    <div id="storbox">
+    	<header>
+        	<h1>Stall Byström<h1>
+        </header>
+        <ul id="meny">
+        		<li><a href="test.html">Hem</a></li>
+    			<li><a href="om.html">Om</a></li>
+
+                	<div class="dropdown">
+   						<li><a href="hastar.html" >Hästar</a></li>
+                        	<div class="dropdown-content" >
+    							<a href="catullussb.html">Catullus SB</a>
+   								<a href="lordkrejs.html">Lord Krejs</a>						
+  							</div>
+					</div>
+                        
+    			<li><a href="galleri.html">Galleri</a></li>
+   				<li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+          
+        <article class="indexarticle">
+			
+          <h2> Bilder</h2>  
+            <div class="slideshow-container">
+
+                <div class="mySlides fade" style="display: block">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="calle1.jpg">
+                  <div class="text">Catullus SB, Helsingborg</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="calle2.jpg">
+                  <div class="text">Catullus SB, Åsbo</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="lord1.jpg">
+                  <div class="text">Lord Krejs, Flyinge</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div id="litetblock">
+                  <span class="dot active" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            
+               
+          <aside>
+                 <h3>
+                    Välkommen till Stall Byströms Hemsida!
+                 </h3>
+                <p>
+                    Här kan du bli uppdaterad med de senaste nyheterna om Stall Byström. Allt från kommande tävlingar, bildgalleri, kontakt och mycket mer!
+                </p>
+                <h4>
+                    Sponsorer:
+                </h4>
+                <br>
+                    <img src="krafft2.jpg" style="width:90%">
+                    <img src="kask.jpg" style="width:90%">
+                    <img src="antares.jpg" style="width:70%">
+                    <img src="mårtenssons.jpg" style="width:100%">
+                    <img src="sharpman.jpg" style="width:50%">
+
+
+            </aside>
+          <p>
+                <h6>
+                    Senaste nytt via tdb:
+                </h6>
+                    <div id="button2">
+                        <a href="https://tdb.ridsport.se/rider_results/90222?time_span_end=2017-12-31&time_span_start=2017-01-01" target="_blank">
+                        <img src="minaresultat.png">
+                    </div>
+            </p>
+        </article>
+        <footer>
+              Stall Byström 2017 <br>
+              Oscar Byström, Ångbåtsvägen 1, <br>
+              57361 SOMMEN <br> 
+           
+              	0763-91 21 26, <a href="mailto:oscar.bystrom@hotmail.com">oscar.bystrom@hotmail.com</a>               
+        </footer>
+    </div>
+</body>
+</html>
